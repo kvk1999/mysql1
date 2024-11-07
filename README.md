@@ -99,22 +99,22 @@ Sample Tables:
 
 Customers Table:
 
-+------+---------------+--------------------------+-----------------------------------+
-| id   | name          | email                    | address                           |
-+------+---------------+--------------------------+-----------------------------------+
-|    1 | John Smith    | john.smith@gmail.com     | 7, laker street Washington USA    |
-|    2 | Jane Doe      | jane.doe@gmail.com       | 3 , wilson street Toronto CA      |
-|    3 | Glenn Gould   | glenn.gould@gmail.com    | 5, park street New York USA       |
-|    4 | Kim Vissette  | kim.vissette@outlook.com | 8, lobstone street London UK      |
-|    5 | Tim Wood      | timwood007@outlook.com   | 10, savepoint street New York USA |
-|    6 | Clara Miller  | claram@gmail.com         | 17, nasher lane Detroit USA       |
-|    7 | Jennifer Louw | jennilouw08@gmail.com    | 23, MDC street Morrisvile USA     |
-|    8 | David Ruiz    | davidruiz@gmail.com      | 15, maintain street New York USA  |
-|    9 | Sarah Lee     | sarahlee@gmail.com       | 21, will street Cincinnati USA    |
-|   10 | Michael Brown | michaelbrown@gmail.com   | 22, loker street Berlin Germany   |
-|   11 | David Lee     | davidlee@rediff.com      | 23, paker street Ipswich UK       |
-|   12 | John Brown    | johnbrown@gmail.com      | 24, kerkero street Kimberley SA   |
-+------+---------------+--------------------------+-----------------------------------+
+### Rendered Output:
+| id    | name          | email                    | address                           |
+|:-----:|:-------------:|:------------------------:|:---------------------------------:|
+|    1  | John Smith    | john.smith@gmail.com     | 7, laker street Washington USA    |
+|    2  | Jane Doe      | jane.doe@gmail.com       | 3 , wilson street Toronto CA      |
+|    3  | Glenn Gould   | glenn.gould@gmail.com    | 5, park street New York USA       |
+|    4  | Kim Vissette  | kim.vissette@outlook.com | 8, lobstone street London UK      |
+|    5  | Tim Wood      | timwood007@outlook.com   | 10, savepoint street New York USA |
+|    6  | Clara Miller  | claram@gmail.com         | 17, nasher lane Detroit USA       |
+|    7  | Jennifer Louw | jennilouw08@gmail.com    | 23, MDC street Morrisvile USA     |
+|    8  | David Ruiz    | davidruiz@gmail.com      | 15, maintain street New York USA  |
+|    9  | Sarah Lee     | sarahlee@gmail.com       | 21, will street Cincinnati USA    |
+|   10  | Michael Brown | michaelbrown@gmail.com   | 22, loker street Berlin Germany   |
+|   11  | David Lee     | davidlee@rediff.com      | 23, paker street Ipswich UK       |
+|   12  | John Brown    | johnbrown@gmail.com      | 24, kerkero street Kimberley SA   |
+
 
 
 ### Create a Table
@@ -262,9 +262,9 @@ DELETE FROM products WHERE id = 1;
 
 Products table
 
-+------+-------------------+----------+-----------------------------------------+
+### Rendered Output:
 | id   | name              | price    | description                             |
-+------+-------------------+----------+-----------------------------------------+
+|:----:|:-----------------:|:--------:|:---------------------------------------:|
 |    1 | Apple Watch       |   800.00 | includes the fitness information        |
 |    2 | Samsung QLED      | 12000.00 | Watching the TV favourites with HQ      |
 |    3 | Sony Headphones   |   800.00 | listening to the music                  |
@@ -277,7 +277,7 @@ Products table
 |   10 | Sony BRAVIA       | 35000.00 | includes the watching the TV favourites |
 |   11 | Samsung Galaxy S7 | 23000.00 | includes the smartphone like android    |
 |   12 | TCL Vitro 4K      | 29000.00 | includes the watching the TV            |
-+------+-------------------+----------+-----------------------------------------+
+
 
 ### insert query for the above table
 
@@ -299,9 +299,9 @@ INSERT INTO products (id, name, price, description) VALUES
 
 ### Create a order table like customer_id and order Date
 
-+------+-------------+------------+--------------+
+### Rendered Output:
 | id   | customer_id | order_date | total_amount |
-+------+-------------+------------+--------------+
+|:----:|:-----------:|:----------:|:------------:|
 | NULL |           1 | 2024-11-07 |        60.00 |
 | NULL |           2 | 2024-11-02 |        80.00 |
 | NULL |           3 | 2024-09-28 |        45.00 |
@@ -312,7 +312,7 @@ INSERT INTO products (id, name, price, description) VALUES
 | NULL |           8 | 2024-10-08 |       130.00 |
 | NULL |           9 | 2024-10-03 |        60.00 |
 | NULL |          10 | 2024-09-23 |       110.00 |
-+------+-------------+------------+--------------+
+
 
 
 ### insert query for the above table
